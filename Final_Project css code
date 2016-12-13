@@ -1,0 +1,48 @@
+// note some of this is not used
+
+.root{
+    -fx-background-color: linear-gradient(from 0% 100% to 100% 0%, #0066ff, #333333);
+}
+.label{
+    -fx-text-fill: #838383;
+}
+.label-title{
+    -fx-font-weight: bold;
+    -fx-font-size: 40pt;
+}
+.label-level{
+    -fx-background-color: #838383;
+    -fx-text-fill: #000000;
+    -fx-background-radius: 0;
+    -fx-font-size: 20px;
+}
+.outline.label-title .text {
+    -fx-fill: lightseagreen;
+    -fx-stroke: firebrick;
+    -fx-stroke-width: 2px;
+}
+.button-default{
+    -fx-background-color: #838383;
+    -fx-text-fill: #000000;
+    -fx-background-radius: 0;
+    -fx-font-size: 20px;
+}
+.button-colour{
+    -fx-background-color: #838383;
+    -fx-text-fill: #000000;
+    -fx-background-radius: 0;
+    -fx-font-size: 15px;
+}
+.button-level{
+    -fx-background-color: #838383;
+    -fx-background-radius: 0; 
+    -fx-font-size: 40px;
+}
+.choice-box .label {
+    -fx-text-fill: #000000;
+    
+}
+.text-area .content{
+    -fx-background-colour: #838383;
+}
+
