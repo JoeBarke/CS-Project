@@ -481,39 +481,18 @@ public class Final_Project extends Application  {
         String colour = colourc.getValue();
         System.out.println(colour);
         
-        if ("Default".equals(colour)) {
-          hexcolour = "838383";
-        }
-        if ("Yellow".equals(colour)){
-           hexcolour = "eeee00";
-        }
-        if ("Celery".equals(colour)) {
-           hexcolour = "a8ba3c";
-        }
-        if ("Grass".equals(colour)) {
-           hexcolour = "4dbd33";
-        }
-        if ("Jade".equals(colour)) {
-           hexcolour = "7eb6ff";
-        }
-        if ("Aqua".equals(colour)) {
-           hexcolour = "00ccff";
-        }
-        if ("Sky".equals(colour)) {
-           hexcolour = "6ca6cd";
-        }
-        if ("Purple".equals(colour)){
-           hexcolour = "694489";
-        }
-        if ("Magenta".equals(colour)) {
-           hexcolour = "cd00cd";
-        }
-        if ("Pink".equals(colour)){
-           hexcolour = "f7b3da";
-        }
-        if ("Orange".equals(colour)) {
-           hexcolour = "ed9121";
-        }
+        if ("Default".equals(colour))   hexcolour = "838383";
+        if ("Yellow".equals(colour))    hexcolour = "eeee00";
+        if ("Celery".equals(colour))    hexcolour = "a8ba3c";
+        if ("Grass".equals(colour))     hexcolour = "4dbd33";
+        if ("Jade".equals(colour))      hexcolour = "7eb6ff";
+        if ("Aqua".equals(colour))      hexcolour = "00ccff";
+        if ("Sky".equals(colour))       hexcolour = "6ca6cd";
+        if ("Purple".equals(colour))    hexcolour = "694489";
+        if ("Magenta".equals(colour))   hexcolour = "cd00cd";
+        if ("Pink".equals(colour))      hexcolour = "f7b3da";
+        if ("Orange".equals(colour))    hexcolour = "ed9121";
+        
         cbutton = "-fx-background-color: #" + hexcolour ;
         System.out.println(cbutton);
         bplay.setStyle(cbutton);
