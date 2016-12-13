@@ -470,11 +470,6 @@ public class Final_Project extends Application  {
         thewindow.show();     
     }
     
-    //  TODO NEXT
-    //      pretty colours
-    //      game stuffs
-    //
-    
     private void getChoice(ChoiceBox<String> colourc) {
         
         // change the background colour for the texts
