@@ -105,7 +105,7 @@ public class Final_Project extends Application  {
         GridPane.setConstraints(bcolour, 1 , 3);
 
         // home screen title
-        Label thome = new Label (" PASSED ");
+        Label thome = new Label (" Word Cannon ");
         thome.getStyleClass().add("label-title");
         
         // current score label
@@ -512,6 +512,16 @@ public class Final_Project extends Application  {
         lloading.setStyle(cbutton);
         lline1.setStyle(cbutton);
         tanswer.setStyle(cbutton);
+        htpline1.setStyle(cbutton);
+        htpline2.setStyle(cbutton);
+        htpline3.setStyle(cbutton);
+        htpline4.setStyle(cbutton);
+        htpline5.setStyle(cbutton);
+        htpline6.setStyle(cbutton);
+        htpline7.setStyle(cbutton);
+        htpline8.setStyle(cbutton);
+        htpline9.setStyle(cbutton);
+        htpline10.setStyle(cbutton);
     }   
     
 }
